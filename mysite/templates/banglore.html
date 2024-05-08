@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Responsive Example</title>
+<link rel="stylesheet" href="../static/css/banglore.css">
+
+<link rel="stylesheet" href="../static/css/Blog.css">
+<link rel="stylesheet" href="../static/css/bootstrap.min.css" type="text/css">
+<link rel="stylesheet" href="../static/css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" href="../static/css/owl.carousel.min.css" type="text/css">
+<link rel="stylesheet" href="../static/css/challan.css" type="text/css">
+<link rel="stylesheet" href="../static/css/template.1.css" type="text/css">
+
+
+
+</head>
+<body>
+
+<!--  -->
+
+
+<!-- ***** Header Area Start ***** -->
+<header class="header-area header-sticky" style="background: black;">
+  <div class="container">
+      <div class="row">
+          <div class="col-12">
+              <nav class="main-nav">
+                  <!-- ***** Logo Start ***** -->
+                  <a href="/" class="logo">CAR<em> VALUE</em></a>
+                  <!-- ***** Logo End ***** -->
+                  <!-- ***** Menu Start ***** -->
+                  <ul class="nav">
+                      <li class="dropdown">
+                          <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Buy a car</a>
+                        
+                          <div class="dropdown-menu">
+                              <a class="dropdown-item" href="{% url 'delhi' %}" style="color: black;">Used car Delhi</a>
+                              <a class="dropdown-item" href="{% url 'mumbai' %}" style="color: black;">Used car Mumbai</a>
+                              <a class="dropdown-item" href="{% url 'banglore' %}" style="color: black;">Used car Bangalore</a>
+                              <a class="dropdown-item" href="{% url 'ahemdabad' %}" style="color: black;">Used car Ahmedabad</a>
+                              <a class="dropdown-item" href="{% url 'surat' %}" style="color: black;">Used car Surat</a>
+                              <!-- <a class="dropdown-item" href="#" style="color: black;">Used car Gujarat</a> -->
+                          </div>
+                      </li>
+
+
+                      <li class="dropdown">
+                          <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Sell a car</a>
+                        
+                          <div class="dropdown-menu">
+                              <a class="dropdown-item" href="{% url 'carvaluation' %}" style="color: black;">Used car valuation</a>
+                              <a class="dropdown-item" href="{% url 'delhi' %}" style="color: black;">Used car Delhi</a>
+                              <a class="dropdown-item" href="{% url 'mumbai' %}" style="color: black;">Used car Mumbai</a>
+                              <a class="dropdown-item" href="{% url 'banglore' %}" style="color: black;">Used car Bangalore</a>
+                              <a class="dropdown-item" href="{% url 'ahemdabad' %}" style="color: black;">Used car Ahmedabad</a>
+                              <a class="dropdown-item" href="{% url 'surat' %}" style="color: black;">Used car Surat</a>
+                              
+                          </div>
+                      </li>
+
+
+                      <li class="dropdown">
+                          <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Car finance</a>
+                        
+                          <div class="dropdown-menu">
+                              <a class="dropdown-item" href="{% url 'loan' %}" style="color: black;">Used car loan</a>
+                              <!-- <a class="dropdown-item" href="#" style="color: black;">Used car loan eligiblitiy</a> -->
+                              <!-- <a class="dropdown-item" href="#" style="color: black;">Used car loan interest rate</a> -->
+                              <a class="dropdown-item" href="{% url 'emicalculator' %}" style="color: black;">Used car EmI calculator</a>
+                              <!-- <a class="dropdown-item" href="#" style="color: black;">FAQ</a> -->
+                              <!-- <a class="dropdown-item" href="#" style="color: black;">Terms</a> -->
+                          </div>
+                      </li>
+
+
+                      <li><a href="{% url 'blog' %}">Blog</a></li> 
+
+
+                      <li class="dropdown">
+                          <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Car Service</a>
+                        
+                          <div class="dropdown-menu">
+                              <a class="dropdown-item" href="{% url 'challan' %}" style="color: black;">View and pay challan</a>
+                              <!-- <a class="dropdown-item" href="{% url 'blog' %}" style="color: black;">Check Vehicle details</a> -->
+                          </div>
+                      </li>
+                      <li><a href="{% url 'signup' %}">Login</a></li> 
+                  </ul>        
+                  <a class='menu-trigger'>
+                      <span>Menu</span>
+                  </a>
+                  <!-- ***** Menu End ***** -->
+              </nav>
+          </div>
+      </div>
+  </div>
+</header>
+<!-- ***** Header Area End ***** -->
+
+
+
+
+
+
+<!-- header end -->
+  <div class="section" style="padding-top: 60px;">
+    <div class="container">
+  <      <div class="col-3" >
+          
+            <!-- tryal -->
+
+           <div class="modal1"> 
+            <div class="Eccoy">
+                <div class="modal3">
+                    <div>
+                        <div class="modal4">
+                            <h3 class="Mimage">
+                                <img src="https://fastly-production.24c.in/india/listingpage/desktop/filter_icons/brand.png" alt="Make & Model">Make & Model
+                            </h3>
+                        </div>
+                        <div class="modal5">
+                            <div>
+                                <div class="modal6">
+                                    <div class="form-group">
+                                        <input type="text" value="" placeholder="Search by brand or model" id="" class="form-control _2ZjjD">
+                                        <span class="mimage2">
+                                            <img src="https://assets.cars24.com/production/c2b-website/240417171947/js/c73b260467cfd90b70321aea6fa6796d.svg" alt="search">
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="_11ilx UONla">
+                            <h5 class="mimage7">Suggestions</h5>
+                            <ul class="_23UFe _1DhPI">
+                                <li>
+                                    <div class="">
+                                        <input type="checkbox" id="suggestion_Maruti Baleno" name="suggestion_Maruti Baleno" class="">
+                                        <label for="suggestion_Maruti Baleno">Maruti Baleno</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="modal8">
+                                        <input type="checkbox" id="suggestion_Maruti Baleno" name="suggestion_Maruti Baleno" class="">
+                                        <label for="suggestion_Maruti Baleno">Hyundai Grand i10</label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="modal8">
+                                        <input type="checkbox" id="suggestion_Maruti Baleno" name="suggestion_Maruti Baleno" class="">
+                                        <label for="suggestion_Maruti Baleno">Honda City </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="modal8">
+                                        <input type="checkbox" id="suggestion_Maruti Baleno" name="suggestion_Maruti Baleno" class="">
+                                        <label for="suggestion_Maruti Baleno">Honda Amaze </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="modal8">
+                                        <input type="checkbox" id="suggestion_Maruti Baleno" name="suggestion_Maruti Baleno" class="">
+                                        <label for="suggestion_Maruti Baleno">Maruti Ciaz </label>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="modal8">
+                                        <input type="checkbox" id="suggestion_Maruti Baleno" name="suggestion_Maruti Baleno" class="">
+                                        <label for="suggestion_Maruti Baleno">Maruti Baleno</label>
+                                    </div>
+                                </li>
+                                
+                                <!-- other list items -->
+                            </ul>
+                            <h5 class="list">ALL BRANDS</h5>
+                            <ul>
+                                <li>
+                                    <div class="check1">
+                                        <div class="fuel HylYm">
+                                            <div class="_23UFe jj6P_">
+                                                <div class="modal8">
+                                                    <input type="checkbox" id="option_Maruti" name="option_Maruti" class="">
+                                                    <label for="option_Maruti"></label>
+                                                </div>
+                                                <div class="modal9">
+                                                    <label>Maruti Hyundai (251)</label>
+                                                    <img width="16" height="16" src="https://assets.cars24.com/production/c2b-website/240417171947/js/3d51b8b563b0357c8f26ab31e7339447.svg" style="width:16px;height:16px;transform:rotate(0deg)" alt="arrow">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="check1">
+                                        <div class="fuel HylYm">
+                                            <div class="_23UFe jj6P_">
+                                                <div class="modal8">
+                                                    <input type="checkbox" id="option_Maruti" name="option_Maruti" class="">
+                                                    <label for="option_Maruti"></label>
+                                                </div>
+                                                <div class="modal9">
+                                                    <label>Honda (147)</label>
+                                                    <img width="16" height="16" src="https://assets.cars24.com/production/c2b-website/240417171947/js/3d51b8b563b0357c8f26ab31e7339447.svg" style="width:16px;height:16px;transform:rotate(0deg)" alt="arrow">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="check1">
+                                        <div class="fuel HylYm">
+                                            <div class="_23UFe jj6P_">
+                                                <div class="modal8">
+                                                    <input type="checkbox" id="option_Maruti" name="option_Maruti" class="">
+                                                    <label for="option_Maruti"></label>
+                                                </div>
+                                                <div class="modal9">
+                                                    <label>Tata</label>
+                                                    <img width="16" height="16" src="https://assets.cars24.com/production/c2b-website/240417171947/js/3d51b8b563b0357c8f26ab31e7339447.svg" style="width:16px;height:16px;transform:rotate(0deg)" alt="arrow">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="check1">
+                                        <div class="fuel HylYm">
+                                            <div class="_23UFe jj6P_">
+                                                <div class="modal8">
+                                                    <input type="checkbox" id="option_Maruti" name="option_Maruti" class="">
+                                                    <label for="option_Maruti"></label>
+                                                </div>
+                                                <div class="modal9">
+                                                    <label>Renault </label>
+                                                    <img width="16" height="16" src="https://assets.cars24.com/production/c2b-website/240417171947/js/3d51b8b563b0357c8f26ab31e7339447.svg" style="width:16px;height:16px;transform:rotate(0deg)" alt="arrow">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="check1">
+                                        <div class="fuel HylYm">
+                                            <div class="_23UFe jj6P_">
+                                                <div class="modal8">
+                                                    <input type="checkbox" id="option_Maruti" name="option_Maruti" class="">
+                                                    <label for="option_Maruti"></label>
+                                                </div>
+                                                <div class="modal9">
+                                                    <label>Mahindra (39)</label>
+                                                    <img width="16" height="16" src="https://assets.cars24.com/production/c2b-website/240417171947/js/3d51b8b563b0357c8f26ab31e7339447.svg" style="width:16px;height:16px;transform:rotate(0deg)" alt="arrow">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="check1">
+                                        <div class="fuel HylYm">
+                                            <div class="_23UFe jj6P_">
+                                                <div class="modal8">
+                                                    <input type="checkbox" id="option_Maruti" name="option_Maruti" class="">
+                                                    <label for="option_Maruti"></label>
+                                                </div>
+                                                <div class="modal9">
+                                                    <label>Volkswagen</label>
+                                                    <img width="16" height="16" src="https://assets.cars24.com/production/c2b-website/240417171947/js/3d51b8b563b0357c8f26ab31e7339447.svg" style="width:16px;height:16px;transform:rotate(0deg)" alt="arrow">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="check1">
+                                        <div class="fuel HylYm">
+                                            <div class="_23UFe jj6P_">
+                                                <div class="modal8">
+                                                    <input type="checkbox" id="option_Maruti" name="option_Maruti" class="">
+                                                    <label for="option_Maruti"></label>
+                                                </div>
+                                                <div class="modal9">
+                                                    <label>Nissan </label>
+                                                    <img width="16" height="16" src="https://assets.cars24.com/production/c2b-website/240417171947/js/3d51b8b563b0357c8f26ab31e7339447.svg" style="width:16px;height:16px;transform:rotate(0deg)" alt="arrow">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="check1">
+                                        <div class="fuel HylYm">
+                                            <div class="_23UFe jj6P_">
+                                                <div class="modal8">
+                                                    <input type="checkbox" id="option_Maruti" name="option_Maruti" class="">
+                                                    <label for="option_Maruti"></label>
+                                                </div>
+                                                <div class="modal9">
+                                                    <label>Datsun </label>
+                                                    <img width="16" height="16" src="https://assets.cars24.com/production/c2b-website/240417171947/js/3d51b8b563b0357c8f26ab31e7339447.svg" style="width:16px;height:16px;transform:rotate(0deg)" alt="arrow">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="check1">
+                                        <div class="fuel HylYm">
+                                            <div class="_23UFe jj6P_">
+                                                <div class="modal8">
+                                                    <input type="checkbox" id="option_Maruti" name="option_Maruti" class="">
+                                                    <label for="option_Maruti"></label>
+                                                </div>
+                                                <div class="modal9">
+                                                    <label>Skoda </label>
+                                                    <img width="16" height="16" src="https://assets.cars24.com/production/c2b-website/240417171947/js/3d51b8b563b0357c8f26ab31e7339447.svg" style="width:16px;height:16px;transform:rotate(0deg)" alt="arrow">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <div class="check1">
+                                        <div class="fuel HylYm">
+                                            <div class="_23UFe jj6P_">
+                                                <div class="modal8">
+                                                    <input type="checkbox" id="option_Maruti" name="option_Maruti" class="">
+                                                    <label for="option_Maruti"></label>
+                                                </div>
+                                                <div class="modal9">
+                                                    <label>Jeep </label>
+                                                    <img width="16" height="16" src="https://assets.cars24.com/production/c2b-website/240417171947/js/3d51b8b563b0357c8f26ab31e7339447.svg" style="width:16px;height:16px;transform:rotate(0deg)" alt="arrow">
+                                                </div>
+                                            </div>
+                                       
+                                           
+                                            <!--  -->
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                         <!-- after ul -->
+
+                             <!--  -->
+                             <div class="prize">
+                                <h3 class="pb-4 fuel2">
+                                    <img src="https://fastly-production.24c.in/india/listingpage/desktop/filter_icons/price.png" alt="Budget">Budget
+                                </h3>
+                                <div class="prize1">
+                                    <span>₹ <!-- -->1,00,000</span>
+                                    <span>₹ <!-- -->30,00,000<!-- --> </span>
+                                </div>
+                                <div class="prize2">
+                                    <div class="prize3">
+                                        <div class="_3XI6w "></div>
+                                        <div style="background-color:#dde5eb" class="railInner _2rAGP"></div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="_1J_9o KMM5g">
+                                    <span class="min">Minimum</span>
+                                    <span class="min">Maximum</span>
+                                </div>
+                                <h5 class="mt-3 list">Suggestions</h5>
+                                <ul class="suges">
+                                    <li class="">Under 3 lakh</li>
+                                    <li class="">From 3 lakh - 5 lakh</li>
+                                    <li class="">From 5 lakh - 7 lakh</li>
+                                    <li class="">From 7 lakh - 10 lakh</li>
+                                    <li class="">Above 10 lakh</li>
+                                </ul>
+                            </div>
+
+                            <div>
+                                <div class="fuel">
+                                    <h3 class="fuel2">
+                                        <img src="https://fastly-production.24c.in/india/listingpage/desktop/filter_icons/fueltype.png" alt="Fuel">    Fuel
+                                    </h3>
+                                    <img width="16" height="16" src="https://assets.cars24.com/production/c2b-website/240417171947/js/3d51b8b563b0357c8f26ab31e7339447.svg" style="width:16px;height:16px;transform:rotate(0deg)" alt="arrow">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="fuel">
+                                    <h3 class="fuel2">
+                                        <img src="https://fastly-production.24c.in/india/listingpage/desktop/filter_icons/year.png">   Model Year
+                                    </h3>
+                                    <img width="16" height="16" src="https://assets.cars24.com/production/c2b-website/240417171947/js/3d51b8b563b0357c8f26ab31e7339447.svg" style="width:16px;height:16px;transform:rotate(0deg)" alt="arrow">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="fuel">
+                                    <h3 class="fuel2">
+                                        <img src="https://fastly-production.24c.in/india/listingpage/desktop/filter_icons/feature.png">   Features
+                                    </h3>
+                                    <img width="16" height="16" src="https://assets.cars24.com/production/c2b-website/240417171947/js/3d51b8b563b0357c8f26ab31e7339447.svg" style="width:16px;height:16px;transform:rotate(0deg)" alt="arrow">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="fuel">
+                                    <h3 class="fuel2">
+                                        <img src="https://fastly-production.24c.in/india/listingpage/desktop/filter_icons/rto.png" alt="Fuel">   RTO
+                                    </h3>
+                                    <img width="16" height="16" src="https://assets.cars24.com/production/c2b-website/240417171947/js/3d51b8b563b0357c8f26ab31e7339447.svg" style="width:16px;height:16px;transform:rotate(0deg)" alt="arrow">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="fuel">
+                                    <h3 class="fuel2">
+                                        <img src="https://fastly-production.24c.in/india/listingpage/desktop/filter_icons/fueltype.png" alt="Fuel">   Body Type
+                                    </h3>
+                                    <img width="16" height="16" src="https://assets.cars24.com/production/c2b-website/240417171947/js/3d51b8b563b0357c8f26ab31e7339447.svg" style="width:16px;height:16px;transform:rotate(0deg)" alt="arrow">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="fuel">
+                                    <h3 class="fuel2">
+                                        <img src="https://fastly-production.24c.in/india/listingpage/desktop/filter_icons/bodytype.png" alt="Fuel">   Transmission
+                                    </h3>
+                                    <img width="16" height="16" src="https://assets.cars24.com/production/c2b-website/240417171947/js/3d51b8b563b0357c8f26ab31e7339447.svg" style="width:16px;height:16px;transform:rotate(0deg)" alt="arrow">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="fuel">
+                                    <h3 class="fuel2">
+                                        <img src="https://fastly-production.24c.in/india/listingpage/desktop/filter_icons/transmisson.png" alt="Fuel">   Owners
+                                    </h3>
+                                    <img width="16" height="16" src="https://assets.cars24.com/production/c2b-website/240417171947/js/3d51b8b563b0357c8f26ab31e7339447.svg" style="width:16px;height:16px;transform:rotate(0deg)" alt="arrow">
+                                </div>
+                            </div>
+                            <div>
+                                <div class="fuel">
+                                    <h3 class="fuel2">
+                                        <img src="https://fastly-production.24c.in/india/listingpage/desktop/filter_icons/fueltype.png" alt="Fuel">   Kms Driven
+                                    </h3>
+                                    <img width="16" height="16" src="https://assets.cars24.com/production/c2b-website/240417171947/js/3d51b8b563b0357c8f26ab31e7339447.svg" style="width:16px;height:16px;transform:rotate(0deg)" alt="arrow">
+                                </div>
+                            </div>
+        
+                    </div>    
+                </div>    
+            </div>
+
+        </div>
+            <!-- right side -->
+
+       
+
+
+        </div>
+        <div class="col-9">
+
+          <!-- search -->
+
+          <section >
+
+          <div class="car11">
+            <div class="car12">
+                <div class="car13">
+                    <div class="car14">
+                        <input type="text" value="" maxlength="1000" autocomplete="off" placeholder="Search for your favourite cars" class="form-control">
+                    </div>
+                    <span class="spanimg">
+                        <img width="24" height="24" src="https://assets.cars24.com/production/c2b-website/240417171947/js/72ec396c28698223128a8b3ec4e72626.svg" alt="Search Brand">
+                    </span>
+                </div>
+                <div class="KUzhb"></div>
+            </div>
+            <div>
+                <div class="car15">
+                    <a class="car19">Clear All</a>
+                    <ul class="car20">
+                        <li>₹1L - ₹30L<img src="https://assets.cars24.com/production/c2b-website/240417171947/js/d8b868d4b0f0159bb2fb080a718f3eaa.svg" alt="close"></li>
+                    </ul>
+                </div>
+            </div>
+
+          </section>
+
+
+          <!-- heading  -->
+
+          <div class="used">
+            <div class="heading-container">
+                <h1>1024 Used cars in <span style="color: orangered;"> BANGLORE </span></h1>
+            </div>
+            <div class="text-right">
+                <span class="_1--Vy">Sort By:</span>
+                <div class="used1">
+                    <span class="used3">Best Match <img width="24" height="24" src="https://assets.cars24.com/production/c2b-website/240417171947/js/bf6340572e7389b8b545ad752218ee5c.svg" alt="arrow" style="transform: rotate(0deg);"> </span>
+                    <div class="used4">
+                        <div class="filter-section">
+                            <div class="filter1">
+                                <p class="filter2"></p>
+                                <ul class="filter3">
+                                    <li>
+                                        <div class="filter4">
+                                            <input id="sort_BESTMATCH" type="radio" name="radio-group-sort" checked="">
+                                            <label for="sort_BESTMATCH">Best Match</label>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="filter1">
+                                <p class="filter2"></p>
+                                <ul class="filter3">
+                                    
+                                </ul>
+                            </div>
+
+                            
+
+
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+
+           <!-- text before car -->
+           <div class="mb-3 ">
+            <div class="Htext">
+                <p style="font-size: initial;">Choose from 1027 used cars in Delhi NCR available at affordable prices on our car website. Some of the most popular brands for second-hand cars in Delhi NCR are:
+                Maruti (354 cars available)Hyundai (239 cars available)Honda (144 cars available)Tata (81 cars available)Renault (41 cars available)</p>
+                
+            </div>
+            <span class="more">More</span>
+        </div>
+
+      <!-- text before car end -->
+            <div class="div">
+          <div class="row" >
+            <a href="" class="car">
+                <div>
+                  <div class="car-pic">
+                    <span class="lazy-load-image-background blur lazy-load-image-loaded" style="color:transparent;display:inline-block">
+                      <img src="https://fastly-production.24c.in/hello-ar/dev/uploads/66265743a5f2d2122af602b2/c7227918-2d9f-41d0-866f-1e5826348091/slot/10142183704-7f6d47424cc94b2ab92747bb1b36b155-Exterior-1.jpg?w=750&auto=format" width="110px" alt="2023 Nissan MAGNITE XE, Manual, 2,621 km, Petrol Car">
+                    </span>
+                  </div>
+                  <div class="text">
+                    <h3 class="hList">2021 Mahindra Thar LX PETROL HT 4WD AT</h3>
+                    <ul class="km">
+                      <li>10,551 km</li>
+                      <li class="petrol"></li>
+                      <li>Petrol</li>
+                      <li class="petrol"></li>
+                      <li>Manual</li>
+                    </ul>
+                    <span class="hList2">Regularly Serviced</span>
+                    <div class="Listrate">
+                      <strong class="RATE">₹10.80 Lakh</strong>
+                    </div>
+                    <div class="-EPGU">
+                      <span class="EMI">EMIs from ₹11,339/month</span>
+                    </div>
+                    <p class="test">Free Test Drive <span>Today</span>  at <span>Spaze Platinum, Sohna Road, Gurugram</span></p>
+                  </div>
+                </div>
+              </a>
+              <a href="" target="_blank" class="car">
+                <div>
+                  <div class="car-pic">
+                    <span class="lazy-load-image-background blur lazy-load-image-loaded" style="color:transparent;display:inline-block">
+                      <img src="https://i.ytimg.com/vi/vIL44CQlrTo/maxresdefault.jpg" width="117px" alt="2023 Nissan MAGNITE XE, Manual, 2,621 km, Petrol Car">
+                    </span>
+                  </div>
+                  <div class="text">
+                    <h3 class="hList">2021 Mahindra Scorpio S11 2WD</h3>
+                    <ul class="km">
+                      <li>5,621 km</li>
+                      <li class="petrol"></li>
+                      <li>Petrol</li>
+                      <li class="petrol"></li>
+                      <li>Manual</li>
+                    </ul>
+                    <span class="hList2">Regularly Serviced</span>
+                    <div class="Listrate">
+                      <strong class="RATE">₹8.80 Lakh</strong>
+                    </div>
+                    <div class="-EPGU">
+                      <span class="EMI">EMIs from ₹11,339/month</span>
+                    </div>
+                    <p class="test">Free Test Drive <span>Today</span>  at <span>Spaze Platinum, Sohna Road, Gurugram</span></p>
+                  </div>
+                </div>
+              </a>
+              <a href="" target="_blank" class="car">
+                <div>
+                  <div class="car-pic">
+                    <span class="lazy-load-image-background blur lazy-load-image-loaded" style="color:transparent;display:inline-block">
+                      <img src="https://spn-mda.spinny.com/img/8wacYV0mSXOjmgpKBzdQ4A/file.JPG?w=500" alt="2023 Nissan MAGNITE XE, Manual, 2,621 km, Petrol Car">
+                    </span>
+                  </div>
+                  <div class="text">
+                    <h3 class="hList">2019 Renault Duster 85 PS RXS MT DIESEL</h3>
+                    <ul class="km">
+                      <li>30,551 km</li>
+                      <li class="petrol"></li>
+                      <li>Petrol</li>
+                      <li class="petrol"></li>
+                      <li>Manual</li>
+                    </ul>
+                    <span class="hList2">Regularly Serviced</span>
+                    <div class="Listrate">
+                      <strong class="RATE">₹7.80 Lakh</strong>
+                    </div>
+                    <div class="-EPGU">
+                      <span class="EMI">EMIs from ₹8,339/month</span>
+                    </div>
+                    <p class="test">Free Test Drive <span>Today</span>  at <span>Spaze Platinum, Sohna Road, Gurugram</span></p>
+                  </div>
+                </div>
+              </a>
+              <a href="" target="_blank" class="car">
+                <div>
+                  <div class="car-pic">
+                    <span class="lazy-load-image-background blur lazy-load-image-loaded" style="color:transparent;display:inline-block">
+                      <img src="https://fastly-production.24c.in/hello-ar/dev/uploads/c4ae8ddf-0bb7-433a-9917-d80a3858c0bf/076c1970-9285-4e01-a9ba-60fac3a78783/46.jpg?w=750&auto=format" alt="2023 Nissan MAGNITE XE, Manual, 2,621 km, Petrol Car">
+                    </span>
+                  </div>
+                  <div class="text">
+                    <h3 class="hList">2022 Tata NEXON XM PETROL</h3>
+                    <ul class="km">
+                      <li>3,621 km</li>
+                      <li class="petrol"></li>
+                      <li>Petrol</li>
+                      <li class="petrol"></li>
+                      <li>Manual</li>
+                    </ul>
+                    <span class="hList2">Regularly Serviced</span>
+                    <div class="Listrate">
+                      <strong class="RATE">₹11.80 Lakh</strong>
+                    </div>
+                    <div class="-EPGU">
+                      <span class="EMI">EMIs from ₹19,339/month</span>
+                    </div>
+                    <p class="test">Free Test Drive <span>Today</span>  at <span>Spaze Platinum, Sohna Road, Gurugram</span></p>
+                  </div>
+                </div>
+              </a>
+              <a href="" target="_blank" class="car">
+                <div>
+                  <div class="car-pic">
+                    <span class="lazy-load-image-background blur lazy-load-image-loaded" style="color:transparent;display:inline-block">
+                      <img src="https://spn-mda.spinny.com/img/7W5f2qJZRI%2Bmv9aqf0RoOA/file?w=500" alt="2023 Nissan MAGNITE XE, Manual, 2,621 km, Petrol Car">
+                    </span>
+                  </div>
+                  <div class="text">
+                    <h3 class="hList">2019 Hyundai Verna 1.6 CRDI SX + AT</h3>
+                    <ul class="km">
+                      <li>10,551 km</li>
+                      <li class="petrol"></li>
+                      <li>Petrol</li>
+                      <li class="petrol"></li>
+                      <li>Manual</li>
+                    </ul>
+                    <span class="hList2">Regularly Serviced</span>
+                    <div class="Listrate">
+                      <strong class="RATE">₹10.80 Lakh</strong>
+                    </div>
+                    <div class="-EPGU">
+                      <span class="EMI">EMIs from ₹11,339/month</span>
+                    </div>
+                    <p class="test">Free Test Drive <span>Today</span>  at <span>Spaze Platinum, Sohna Road, Gurugram</span></p>
+                  </div>
+                </div>
+              </a>
+              <a href="" target="_blank" class="car">
+                <div>
+                  <div class="car-pic">
+                    <span class="lazy-load-image-background blur lazy-load-image-loaded" style="color:transparent;display:inline-block">
+                      <img src="https://fastly-production.24c.in/hello-ar/dev/uploads/661e8034e4f4eaa2fe4083cd/12d9756f-0d1a-4818-b2f9-24ac11c2d944/slot/11274384721-e29313be5a514a498aed15466261be97-Exterior-6.jpg?w=500&auto=format" alt="2023 Nissan MAGNITE XE, Manual, 2,621 km, Petrol Car">
+                    </span>
+                  </div>
+                  <div class="text">
+                    <h3 class="hList">2019 Volkswagen Ameo HIGHLINE PLUS 1.5L AT 16 ALLOY</h3>
+                    <ul class="km">
+                      <li>10,551 km</li>
+                      <li class="petrol"></li>
+                      <li>Petrol</li>
+                      <li class="petrol"></li>
+                      <li>Manual</li>
+                    </ul>
+                    <span class="hList2">Regularly Serviced</span>
+                    <div class="Listrate">
+                      <strong class="RATE">₹5.80 Lakh</strong>
+                    </div>
+                    <div class="-EPGU">
+                      <span class="EMI">EMIs from ₹5,339/month</span>
+                    </div>
+                    <p class="test">Free Test Drive <span>Today</span>  at <span>Spaze Platinum, Sohna Road, Gurugram</span></p>
+                  </div>
+                </div>
+              </a>
+              <a href="" target="_blank" class="car">
+                <div>
+                  <div class="car-pic">
+                    <span class="lazy-load-image-background blur lazy-load-image-loaded" style="color:transparent;display:inline-block">
+                      <img src="https://fastly-production.24c.in/hello-ar/dev/uploads/767e874c-79db-40df-993a-d3e71772b47b/1b49041a-e868-4fde-9851-9df2c8f421bd/42.jpg?w=750&auto=format" alt="2023 Nissan MAGNITE XE, Manual, 2,621 km, Petrol Car">
+                    </span>
+                  </div>
+                  <div class="text">
+                    <h3 class="hList">2019 Maruti Dzire LDI</h3>
+                    <ul class="km">
+                      <li>8,551 km</li>
+                      <li class="petrol"></li>
+                      <li>Petrol</li>
+                      <li class="petrol"></li>
+                      <li>Manual</li>
+                    </ul>
+                    <span class="hList2">Regularly Serviced</span>
+                    <div class="Listrate">
+                      <strong class="RATE">₹8.80 Lakh</strong>
+                    </div>
+                    <div class="-EPGU">
+                      <span class="EMI">EMIs from ₹8,339/month</span>
+                    </div>
+                    <p class="test">Free Test Drive <span>Today</span>  at <span>Spaze Platinum, Sohna Road, Gurugram</span></p>
+                  </div>
+                </div>
+              </a><a href="" target="_blank" class="car">
+                <div>
+                  <div class="car-pic">
+                    <span class="lazy-load-image-background blur lazy-load-image-loaded" style="color:transparent;display:inline-block">
+                      <img src="https://fastly-production.24c.in/hello-ar/dev/uploads/6623c753dcf17bc50ad0c32d/6a328ffb-b5e2-4b12-a052-a89a54dfa24b/slot/10583386724-b673f4135fdd493b9455018bbc259828-Exterior-6.jpg?w=750&auto=format" alt="2023 Nissan MAGNITE XE, Manual, 2,621 km, Petrol Car">
+                    </span>
+                  </div>
+                  <div class="text">
+                    <h3 class="hList">2019 Renault Duster 110 PS RXS MT DIESEL</h3>
+                    <ul class="km">
+                      <li>5,551 km</li>
+                      <li class="petrol"></li>
+                      <li>Petrol</li>
+                      <li class="petrol"></li>
+                      <li>Manual</li>
+                    </ul>
+                    <span class="hList2">Regularly Serviced</span>
+                    <div class="Listrate">
+                      <strong class="RATE">₹13.80 Lakh</strong>
+                    </div>
+                    <div class="-EPGU">
+                      <span class="EMI">EMIs from ₹15,339/month</span>
+                    </div>
+                    <p class="test">Free Test Drive <span>Today</span>  at <span>Spaze Platinum, Sohna Road, Gurugram</span></p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="" target="_blank" class="car">
+                <div>
+                  <div class="car-pic">
+                    <span class="lazy-load-image-background blur lazy-load-image-loaded" style="color:transparent;display:inline-block">
+                      <img src="https://fastly-production.24c.in/hello-ar/dev/uploads/652a15db938e5aaff61a16fb/d614bb72-f337-4f2d-a1f8-8b3611a6208a/43.jpg?w=750&auto=format" alt="2023 Nissan MAGNITE XE, Manual, 2,621 km, Petrol Car">
+                    </span>
+                  </div>
+                  <div class="text">
+                    <h3 class="hList">2019 Hyundai VENUE SX 1.0 (O) TURBO</h3>
+                    <ul class="km">
+                      <li>12,551 km</li>
+                      <li class="petrol"></li>
+                      <li>Petrol</li>
+                      <li class="petrol"></li>
+                      <li>Manual</li>
+                    </ul>
+                    <span class="hList2">Regularly Serviced</span>
+                    <div class="Listrate">
+                      <strong class="RATE">₹13.80 Lakh</strong>
+                    </div>
+                    <div class="-EPGU">
+                      <span class="EMI">EMIs from ₹15,339/month</span>
+                    </div>
+                    <p class="test">Free Test Drive <span>Today</span>  at <span>Spaze Platinum, Sohna Road, Gurugram</span></p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="" target="_blank" class="car">
+                <div>
+                  <div class="car-pic">
+                    <span class="lazy-load-image-background blur lazy-load-image-loaded" style="color:transparent;display:inline-block">
+                      <img src="https://mda.spinny.com/sp-file-system/public/2024-02-21/2ce9380b097c4d229a9dfe48f9fbc0a6/file.JPG?w=500" alt="2023 Nissan MAGNITE XE, Manual, 2,621 km, Petrol Car">
+                    </span>
+                  </div>
+                  <div class="text">
+                    <h3 class="hList">2021 Tata Safari XZ PLUS</h3>
+                    <ul class="km">
+                      <li>12,551 km</li>
+                      <li class="petrol"></li>
+                      <li>Petrol</li>
+                      <li class="petrol"></li>
+                      <li>Manual</li>
+                    </ul>
+                    <span class="hList2">Regularly Serviced</span>
+                    <div class="Listrate">
+                      <strong class="RATE">₹10.80 Lakh</strong>
+                    </div>
+                    <div class="-EPGU">
+                      <span class="EMI">EMIs from ₹11,339/month</span>
+                    </div>
+                    <p class="test">Free Test Drive <span>Today</span>  at <span>Spaze Platinum, Sohna Road, Gurugram</span></p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="" target="_blank" class="car">
+                <div>
+                  <div class="car-pic">
+                    <span class="lazy-load-image-background blur lazy-load-image-loaded" style="color:transparent;display:inline-block">
+                      <img src="https://fastly-production.24c.in/hello-ar/dev/uploads/2352deaf-fe42-45bc-b165-122396aa0cba/025587b2-0f20-4dcf-9aa8-bc40d821e30b/43.jpg?w=750&auto=format" alt="2023 Nissan MAGNITE XE, Manual, 2,621 km, Petrol Car">
+                    </span>
+                  </div>
+                  <div class="text">
+                    <h3 class="hList">2015 Mahindra Scorpio S4 PLUS</h3>
+                    <ul class="km">
+                      <li>10,551 km</li>
+                      <li class="petrol"></li>
+                      <li>Petrol</li>
+                      <li class="petrol"></li>
+                      <li>Manual</li>
+                    </ul>
+                    <span class="hList2">Regularly Serviced</span>
+                    <div class="Listrate">
+                      <strong class="RATE">₹10.80 Lakh</strong>
+                    </div>
+                    <div class="-EPGU">
+                      <span class="EMI">EMIs from ₹11,339/month</span>
+                    </div>
+                    <p class="test">Free Test Drive <span>Today </span>  at <span>Spaze Platinum, Sohna Road, Gurugram</span></p>
+                  </div>
+                </div>
+              </a>
+
+              <a href="" target="_blank" class="car">
+                <div>
+                  <div class="car-pic">
+                    <span class="lazy-load-image-background blur lazy-load-image-loaded" style="color:transparent;display:inline-block">
+                      <img src="https://fastly-production.24c.in/hello-ar/dev/uploads/2cf3dd8e-78a3-409a-85fe-a007ac6ff304/c2ddb6a7-9c8c-4cab-a485-a1f4e04b7669/46.jpg?w=750&auto=format" alt="2023 Nissan MAGNITE XE, Manual, 2,621 km, Petrol Car">
+                    </span>
+                  </div>
+                  <div class="text">
+                    <h3 class="hList">2022 Tata ALTROZ XZA PLUS DARK EDTION</h3>
+                    <ul class="km">
+                      <li>10,551 km</li>
+                      <li class="petrol"></li>
+                      <li>Petrol</li>
+                      <li class="petrol"></li>
+                      <li>Manual</li>
+                    </ul>
+                    <span class="hList2">Regularly Serviced</span>
+                    <div class="Listrate">
+                      <strong class="RATE">₹10.80 Lakh</strong>
+                    </div>
+                    <div class="-EPGU">
+                      <span class="EMI">EMIs from ₹11,339/month</span>
+                    </div>
+                    <p class="test">Free Test Drive <span>Today </span>  at <span>Spaze Platinum, Sohna Road, Gurugram</span></p>
+                  </div>
+                </div>
+              </a>
+
+
+
+            </div>
+
+        </div>
+
+        </div>
+      </div>
+    </div>
+      
+
+
+<!-- question -->
+<section class="que">
+    <div class="container">
+
+        <div class="_3AmST">
+            <div class="_3-QJx">
+                <h2 class="_3york">Frequently asked <span> questions</span> </h2>
+                <div class="row">
+                    <div class="col-12">
+                        <div class="question">
+                            <h3 class="que">How many used cars available in Delhi NCR ?<img width="24" height="24" src="https://assets.cars24.com/production/c2b-website/240420160214/js/bf6340572e7389b8b545ad752218ee5c.svg" style="width:24;height:24;transform:rotate(180deg)" alt="arrow"></h3>
+                           
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="question">
+                            <h3 class="que">What is the starting price of a used car in Delhi NCR ?<img width="24" height="24" src="https://assets.cars24.com/production/c2b-website/240420160214/js/bf6340572e7389b8b545ad752218ee5c.svg" style="width:24;height:24;transform:rotate(0deg)" alt="arrow"></h3>
+                            
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="question">
+                            <h3 class="que">What are the most popular second hand car brands available in Cars Delhi NCR ?<img width="24" height="24" src="https://assets.cars24.com/production/c2b-website/240420160214/js/bf6340572e7389b8b545ad752218ee5c.svg" style="width:24;height:24;transform:rotate(0deg)" alt="arrow"></h3>
+                           
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="question">
+                            <h3 class="que">What body types are available for 2nd hand cars in Delhi NCR ?<img width="24" height="24" src="https://assets.cars24.com/production/c2b-website/240420160214/js/bf6340572e7389b8b545ad752218ee5c.svg" style="width:24;height:24;transform:rotate(0deg)" alt="arrow"></h3>
+                            
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="question">
+                            <h3 class="que">What are the best second hand cars below 5 lakhs at Cars in Delhi NCR ?<img width="24" height="24" src="https://assets.cars24.com/production/c2b-website/240420160214/js/bf6340572e7389b8b545ad752218ee5c.svg" style="width:24;height:24;transform:rotate(0deg)" alt="arrow"></h3>
+                            
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="question">
+                            <h3 class="que">Can I buy second hand cars online at CARS in Delhi NCR ?<img width="24" height="24" src="https://assets.cars24.com/production/c2b-website/240420160214/js/bf6340572e7389b8b545ad752218ee5c.svg" style="width:24;height:24;transform:rotate(0deg)" alt="arrow"></h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="" class="_3alz" style="color: orangered; font-size: 18px;" >view all faqs</a>
+        </div>
+        
+        </div>
+        <!-- question -->
+</section>
+
+
+
+
+<!-- question end -->
+
+<!-- used car -->
+
+<section class="city" style="margin-top: 30px;">
+<div class="container">
+<div class="used">
+         <h2 class="_3york">Used Cars in India</h2>
+            <div class="cities">
+                <strong>Cities<!-- --> :</strong>
+                <a href="#">Used Cars in Bangalore</a>
+                <a href="#">Used Cars in Hyderabad</a>
+                <a href="#">Used Cars in Pune</a>
+                <a href="#">Used Cars in Mumbai</a>
+                <a href="#">Used Cars in Chennai</a>
+                <a href="#">Used Cars in Ahmedabad</a>
+                <a href="#">Used Cars in Noida</a>
+                <a href="#">Used Cars in New Delhi</a>
+                <a href="#">Used Cars in Gurgaon</a>
+                <a href="#">Used Cars in Kolkata</a>
+                <a href="#">Used Cars in Kochi</a>
+                <a href="#">Used Cars in Lucknow</a>
+                <a href="#">Used Cars in Surat</a>
+                <a href="#">Used Cars in Chandigarh</a>
+                <a href="#">Used Cars in Patna</a>
+                <a href="#">Used Cars in Nagpur</a>
+                <a href="#">Used Cars in Coimbatore</a>
+                <a href="#">Used Cars in Ghaziabad</a>
+                <a href="#">Used Cars in Faridabad</a>
+                <a href="#">Used Cars in Indore</a>
+                <a href="#">Used Cars in Jaipur</a>
+                <a href="#">Used Cars in Rajkot</a>
+                <a href="#">Used Cars in Nashik</a>
+                <a href="#">Used Cars in Ludhiana</a>
+                <a href="#">Used Cars in Vadodara</a>
+                <a href="#">Used Cars in Agra</a>
+                <a href="#">Used Cars in Trivandrum</a>
+                <a href="#">Used Cars in Mysore</a>
+    </div>
+    <div class="cities">
+        <strong>Make<!-- --> :</strong>
+        <a href="#">Used Maruti Cars in Delhi NCR</a>
+        <a href="#">Used Hyundai Cars in Delhi NCR</a>
+        <a href="#">Used Honda Cars in Delhi NCR</a>
+        
+    </div>
+    <div class="cities">
+        <strong>Body<!-- --> :</strong>
+        <a href="#">Used Hatchback Cars in Delhi NCR</a>
+        <a href="#">Used Sedan Cars in Delhi NCR</a>
+        
+    </div>
+    <div class="cities">
+        <strong>Fuel<!-- --> :</strong>
+        <a href="#">Used Petrol Cars in Delhi NCR</a>
+        <a href="#">Used CNG Cars in Delhi NCR</a>
+            </div>
+    <div class="cities">
+        <strong>Budget<!-- --> :</strong>
+        <a href="#">Used Cars Under 7 lakhs in Delhi NCR</a>
+        <a href="#">Used Cars Under 4 lakhs in Delhi NCR</a>
+        
+    </div>
+    <div class="cities">
+        <strong>Model<!-- --> :</strong>
+        <a href="#">Used Hyundai i10 Cars in Delhi NCR</a>
+        <a href="#">Used Maruti Wagon R Cars in Delhi NCR</a>
+        
+    </div>
+    <div class="cities">
+        <strong>Transmission<!-- --> :</strong>
+        <a href="#">Used Manual Cars</a>
+        <a href="#">Used Automatic Cars</a>
+        
+    </div>
+    <div class="cities">
+        <strong>Explore By<!-- --> :</strong>
+        <a href="#">Used Cars with Sunroof in Delhi NCR</a>
+        
+    </div>
+    <div class="cities">
+        <strong>Owners<!-- --> :</strong>
+        <a href="#">Used First Owner Cars in Delhi NCR</a>
+        
+    </div>
+</div>
+
+</div>
+</section>
+
+  <!-- Footer Section Begin -->
+  <footer class="footer set-bg" data-setbg="../static/img/footer-bg.jpg">
+    <div class="container">
+      <div class="footer__contact">
+        <div class="row">
+          <div class="col-lg-6 col-md-6">
+            <div class="footer__contact__title">
+              <h2>Contact Us Now!</h2>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="footer__contact__option">
+              <div class="option__item"><i class="fa fa-phone"></i> (+12) 345 678 910</div>
+              <div class="option__item email"><i class="fa fa-envelope-o"></i> Colorlib@gmail.com</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 col-md-4">
+          <div class="footer__about">
+            <div class="footer__logo">
+              <a href="#"><img src="../static/img/footer-logo.png" alt="" style="width: 100%;"></a>
+            </div>
+            <p>Any questions? Let us know in store at 625 Gloria Union, California, United Stated or call us
+              on (+1) 96 123 8888</p>
+            <div class="footer__social">
+              <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="google"><i class="fa fa-google"></i></a>
+              <a href="#" class="skype"><i class="fa fa-skype"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 offset-lg-1 col-md-3">
+          <div class="footer__widget">
+            <h5>Infomation</h5>
+            <ul>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Purchase</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Payemnt</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Shipping</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Return</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-3">
+          <div class="footer__widget">
+            <h5>Infomation</h5>
+            <ul>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Hatchback</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Sedan</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> SUV</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Crossover</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <div class="footer__brand">
+            <h5>Top Brand</h5>
+            <ul>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Abarth</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Acura</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Alfa Romeo</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Audi</a></li>
+            </ul>
+            <ul>
+              <li><a href="#"><i class="fa fa-angle-right"></i> BMW</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Chevrolet</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Ferrari</a></li>
+              <li><a href="#"><i class="fa fa-angle-right"></i> Honda</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+      <div class="footer__copyright__text">
+        <!-- <p>Copyright &copy;
+          <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i
+            class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+        </p> -->
+      </div>
+      <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+    </div>
+  </footer>
+  <!-- Footer Section End -->
+
+
+  <!-- Bootstrap and jQuery Scripts -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<!-- Script for manually closing Bootstrap dropdowns after click -->
+<script>
+    $(document).ready(function(){
+        $('.dropdown-toggle').on('click', function (e) {
+            var $el = $(this);
+            var $parent = $(this).parent();
+            var $openDropdown = $parent.find('.dropdown-menu');
+            // Close all dropdowns except the one clicked
+            $('.dropdown-menu').not($openDropdown).removeClass('show');
+            // Toggle the dropdown clicked
+            $openDropdown.toggleClass('show');
+            // Prevent default link action
+            return false;
+        });
+
+        // Close dropdowns when clicking outside
+        $(document).on('click', function (e) {
+            if (!$(e.target).closest('.dropdown-toggle').length) {
+                $('.dropdown-menu').removeClass('show');
+            }
+        });
+    });
+</script>
+<script src="../static/js/jquery-3.3.1.min.js"></script>
+  <script src="../static/js/bootstrap.min.js"></script>
+  <script src="../static/js/jquery.slicknav.js"></script>
+  <script src="../static/js/owl.carousel.min.js"></script>
+  <script src="../static/js/main.js"></script>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Page</title>
+    <link rel="stylesheet" href="../static/css/signup.css"> -->
+</head>
+<body>
+
+    {% for message in messages %}
+    <div class="alert alert-{{message.tags}} alert-dismissible fade show" roles="alert">
+        <strong>message:</strong>{{message}}
+        <button type="button" class="close" data_dismissible="alert" aria-label="close">
+        <span arial-hidden="true">&times;</span>
+        </button>
+    </div>
+    {% endfor %}
+
+    <h3>Signup page</h3>
+
+    <div class="container">
+    <form action="/signup/" method="post">
+        {% csrf_token %}
+        <label for="username">Username</label>
+        <input type="text" id="username" name="username" placeholder="Create a username (Only letters and numbers)" required>
+        <br>
+
+        <label for="fname">FirstName</label>
+        <input type="text" id="fname" name="fname" placeholder="Enter Your First Name here.." required>
+        <br>
+
+        <label for="lname">LastName</label>
+        <input type="text" id="lname" name="lname" placeholder="Enter Your Last Name..." required>
+        <br>
+
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email here ..." required>
+        <br>
+
+        <label for="pass1">Password</label>
+        <input type="password" id="pass1" name="pass1" placeholder="Enter Your Password here..." required>
+        <br>
+
+        <label for="pass2">Conform Password</label>
+        <input type="password" id="pass2" name="pass2" placeholder="Enter Your Conform Password here..." required> 
+        <br>
+    
+        <button type="submit">Sign up</button>
+    </form>
+</div>
+
+
+</body>
+</html>
