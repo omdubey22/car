@@ -11,7 +11,7 @@
         
         {
           "src" : "build_files.sh",
-          "use" : "@versel/static-build",
+          "use" : "@versel/static",
           "config" :{
             "distDir" : "staticfiles_build"
         }
